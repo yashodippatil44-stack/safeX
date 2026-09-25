@@ -4,12 +4,19 @@ import 'package:flutter/foundation.dart';
 import '../models/tourist.dart';
 
 class ApiService {
-  // Use localhost for Web/Desktop/iOS, 10.0.2.2 for Android emulator
-  static String baseUrl = kIsWeb ? 'http://localhost:5000/api' : 'http://10.0.2.2:5000/api';
+  static String? _overrideUrl;
+  static String get baseUrl {
+    if (_overrideUrl != null) return _overrideUrl!;
+    if (kIsWeb) {
+      final host = Uri.base.host.isNotEmpty ? Uri.base.host : 'localhost';
+      return 'http://$host:5000/api';
+    }
+    return 'http://192.168.0.105:5000/api';
+  }
   static String? authToken;
 
   static void setBaseUrl(String url) {
-    baseUrl = url;
+    _overrideUrl = url;
   }
 
   static Map<String, String> _headers() {

@@ -56,6 +56,10 @@ app.use('/api/emergency', emergencyRoutes);
 app.use('/api/incidents', incidentRoutes);
 app.use('/api/emergency-services', emergencyServicesRoutes);
 
+// Serve Tourist Mobile Web App on /app
+const mobileWebPath = path.join(__dirname, '../../mobile/build/web');
+app.use('/app', express.static(mobileWebPath));
+
 // Global Error Handler
 app.use((err, req, res, next) => {
   console.error('[SERVER ERROR]:', err);
