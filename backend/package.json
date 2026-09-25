@@ -1,0 +1,37 @@
+{
+  "name": "visionx-backend",
+  "version": "1.0.0",
+  "description": "VisionX - Smart Tourist Safety Monitoring & Incident Response Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/auth.test.js && node test/geofence.test.js && node test/phase2.test.js && node test/phase3.test.js",
+    "test:auth": "node test/auth.test.js",
+    "test:geofence": "node test/geofence.test.js",
+    "test:phase2": "node test/phase2.test.js",
+    "test:phase3": "node test/phase3.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "sih25002",
+    "tourist-safety",
+    "geofence",
+    "blockchain",
+    "ai",
+    "emergency-response"
+  ],
+  "author": "Team VisionX",
+  "license": "MIT"
+}

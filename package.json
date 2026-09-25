@@ -1,0 +1,22 @@
+{
+  "name": "visionx-monorepo",
+  "version": "1.0.0",
+  "description": "VisionX - Smart Tourist Safety Monitoring & Incident Response System (SIH25002)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend start",
+    "test:backend": "npm --prefix backend test",
+    "dev:police": "npm --prefix police-dashboard run dev",
+    "build:police": "npm --prefix police-dashboard run build"
+  },
+  "keywords": [
+    "sih25002",
+    "smart-india-hackathon-2025",
+    "tourist-safety",
+    "ai",
+    "geofencing",
+    "hyperledger-fabric"
+  ],
+  "author": "Team VisionX",
+  "license": "MIT"
+}
