@@ -224,11 +224,11 @@
       "verificationStatus": "AUTHENTIC",
       "tourName": "Meghalaya Nature & Living Root Bridge Expedition",
       "tourStatus": "IN_PROGRESS",
-      "currentRiskLevel": "LOW",
-      "safetyStatus": "SAFE",
-      "currentLatitude": 25.5788,
-      "currentLongitude": 91.8833,
-      "lastActive": "2026-09-25T09:30:26.235Z",
+      "currentRiskLevel": "HIGH",
+      "safetyStatus": "HIGH_RISK",
+      "currentLatitude": 25.275,
+      "currentLongitude": 91.718,
+      "lastActive": "2026-09-25T09:50:12.584Z",
       "interests": [
         "Trekking",
         "Nature",
@@ -236,11 +236,11 @@
         "Culture"
       ],
       "createdAt": "2026-09-25T08:43:37.758Z",
-      "updatedAt": "2026-09-25T09:30:26.280Z",
-      "currentZoneId": null,
-      "currentZoneName": "Open Unzoned Area",
+      "updatedAt": "2026-09-25T09:50:12.584Z",
+      "currentZoneId": "gf_003",
+      "currentZoneName": "Sohra Deep Ravine & Landslide Hazard Area",
       "currentAccuracy": 10,
-      "currentSpeed": 0
+      "currentSpeed": 3.2
     },
     {
       "id": "tp_002",
@@ -936,6 +936,83 @@
       "timestamp": "2026-09-25T09:30:26.237Z",
       "createdAt": "2026-09-25T09:30:26.237Z",
       "updatedAt": "2026-09-25T09:30:26.237Z"
+    },
+    {
+      "id": "loc_317e5f89",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:01.603Z",
+      "createdAt": "2026-09-25T09:47:01.603Z",
+      "updatedAt": "2026-09-25T09:47:01.603Z"
+    },
+    {
+      "id": "loc_047713f6",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:01.635Z",
+      "createdAt": "2026-09-25T09:47:01.644Z",
+      "updatedAt": "2026-09-25T09:47:01.644Z"
+    },
+    {
+      "id": "loc_1d58fc14",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:01.736Z",
+      "createdAt": "2026-09-25T09:47:01.740Z",
+      "updatedAt": "2026-09-25T09:47:01.740Z"
+    },
+    {
+      "id": "loc_b9f1d0e9",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:07.680Z",
+      "createdAt": "2026-09-25T09:47:07.693Z",
+      "updatedAt": "2026-09-25T09:47:07.693Z"
+    },
+    {
+      "id": "loc_52162504",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:10.250Z",
+      "createdAt": "2026-09-25T09:47:10.256Z",
+      "updatedAt": "2026-09-25T09:47:10.256Z"
+    },
+    {
+      "id": "loc_2c2101dd",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "speed": 0,
+      "timestamp": "2026-09-25T09:47:13.713Z",
+      "createdAt": "2026-09-25T09:47:13.718Z",
+      "updatedAt": "2026-09-25T09:47:13.718Z"
+    },
+    {
+      "id": "loc_58b96a8e",
+      "touristId": "VX-TRV-0001",
+      "latitude": 25.275,
+      "longitude": 91.718,
+      "accuracy": 10,
+      "speed": 3.2,
+      "timestamp": "2026-09-25T09:50:12.581Z",
+      "createdAt": "2026-09-25T09:50:12.581Z",
+      "updatedAt": "2026-09-25T09:50:12.581Z"
     }
   ],
   "geoFences": [
@@ -1242,6 +1319,28 @@
       "resolvedAt": "2026-09-25T09:30:26.279Z",
       "resolutionRemarks": "Tourist stabilized with hydration salts and escorted back to safe hotel accommodation.",
       "updatedAt": "2026-09-25T09:30:26.279Z"
+    },
+    {
+      "id": "emg_82fbbe2f",
+      "emergencyId": "VX-EMG-2026-000006",
+      "touristId": "VX-TRV-0001",
+      "touristName": "Yashodip Patil",
+      "type": "LOST",
+      "latitude": 25.5788,
+      "longitude": 91.8833,
+      "accuracy": 10,
+      "severity": "HIGH",
+      "status": "CANCELLED",
+      "assignedOfficerId": null,
+      "assignedOfficerName": null,
+      "touristMessage": "Immediate assistance requested",
+      "createdAt": "2026-09-25T09:47:01.600Z",
+      "acknowledgedAt": null,
+      "assignedAt": null,
+      "startedAt": null,
+      "resolvedAt": null,
+      "resolutionRemarks": "Cancelled by tourist.",
+      "updatedAt": "2026-09-25T09:47:14.390Z"
     }
   ],
   "travelGroups": [],
@@ -1465,18 +1564,59 @@
       "read": false,
       "createdAt": "2026-09-25T09:30:26.238Z",
       "updatedAt": "2026-09-25T09:30:26.238Z"
+    },
+    {
+      "id": "notif_dae04e33",
+      "touristId": "VX-TRV-0001",
+      "type": "EMERGENCY_CREATED",
+      "title": "🚨 CRITICAL SOS ACTIVATION",
+      "message": "Tourist Yashodip Patil (VX-TRV-0001) triggered LOST emergency at (25.5788, 91.8833).",
+      "severity": "CRITICAL",
+      "geoFenceId": null,
+      "read": false,
+      "createdAt": "2026-09-25T09:47:01.604Z",
+      "updatedAt": "2026-09-25T09:47:01.604Z"
+    },
+    {
+      "id": "notif_31a62ffe",
+      "touristId": "VX-TRV-0001",
+      "type": "GEOFENCE_ENTER",
+      "title": "Safe Tourist Zone Active",
+      "message": "You have entered Police Bazar Cultural & Tourist Hub. Dedicated tourist safety telemetry is active.",
+      "severity": "INFO",
+      "geoFenceId": "gf_001",
+      "read": false,
+      "createdAt": "2026-09-25T09:47:01.655Z",
+      "updatedAt": "2026-09-25T09:47:01.655Z"
+    },
+    {
+      "id": "notif_35d08c3b",
+      "touristId": "VX-TRV-0001",
+      "type": "HIGH_RISK_AREA",
+      "title": "⚠️ Entered High-Risk Zone",
+      "message": "You have crossed into Sohra Deep Ravine & Landslide Hazard Area (DANGER_ZONE). Risk tier: HIGH.",
+      "severity": "HIGH",
+      "geoFenceId": "gf_003",
+      "read": false,
+      "createdAt": "2026-09-25T09:50:12.583Z",
+      "updatedAt": "2026-09-25T09:50:12.583Z"
     }
   ],
   "safetyStatuses": [
     {
       "id": "ss_a524aeac",
       "touristId": "VX-TRV-0001",
-      "status": "SAFE",
-      "riskLevel": "LOW",
-      "zone": null,
-      "lastUpdated": "2026-09-25T09:30:25.464Z",
+      "status": "HIGH_RISK",
+      "riskLevel": "HIGH",
+      "zone": {
+        "id": "gf_003",
+        "name": "Sohra Deep Ravine & Landslide Hazard Area",
+        "type": "DANGER_ZONE",
+        "riskLevel": "HIGH"
+      },
+      "lastUpdated": "2026-09-25T09:50:12.585Z",
       "createdAt": "2026-09-25T08:56:45.815Z",
-      "updatedAt": "2026-09-25T09:30:25.464Z"
+      "updatedAt": "2026-09-25T09:50:12.585Z"
     }
   ],
   "emergencyServices": [
